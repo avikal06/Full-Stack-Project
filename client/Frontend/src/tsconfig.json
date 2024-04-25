@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ESNext", // or specify your target version
+      "module": "ESNext", // or specify your module system
+      "strict": true,
+      "jsx": "react", // if you're using React
+      "esModuleInterop": true,
+      "skipLibCheck": true, // optional, speeds up compilation
+      "forceConsistentCasingInFileNames": true // optional, enforces consistent file naming
+    },
+    "include": [
+      "src" // or specify the directory where your TypeScript files are located
+    ]
+  }
+  
